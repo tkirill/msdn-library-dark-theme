@@ -1,0 +1,26 @@
+@-moz-document regexp('http://msdn.microsoft.com/..-../library/.*') {
+    body {
+        color: #fffff;
+        background-color: #1e1e1e;
+    }
+
+    h1, h1.title, .topic h1.title, p {
+        color: #dcdcdc;
+    }
+    
+    #curversion, #ratingCounter .ratingText {
+        color: #6e6e6e;
+    }
+    
+    .LW_CollapsibleArea_Title {
+        color: #f0f0f0
+    }
+    
+    .topic a,.topic a:link {
+        color: #569CD6
+    }
+    
+    div#leftNav a,div#leftNav a:link,div#leftNav a:visited {
+        color: #569CD6
+    }
+}
