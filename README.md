@@ -6,8 +6,6 @@ For those who read documentation a lot.  It is implemented using user style and 
 
 ### Firefox
 
-#### Recommended
-
 1.  Install  [Stylish][stylish-firefox] extension bringing user styles into browser.
 2.  Visit our page on userstyles.org: [userstyles.org/styles/109048/msdn-library-dark-theme][userstyles-link].
 3.  Press "Install with Stylish" button.
