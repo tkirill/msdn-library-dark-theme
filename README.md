@@ -13,7 +13,7 @@ For those who read documentation a lot.  It is implemented using user style and 
 
 ### Chrome
 
-Same as Firefox.  Stylish for Chrome: 
+Same as Firefox.  Stylish for Chrome: [chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe][stylish-chrome]
 
 [stylish-firefox]: https://addons.mozilla.org/en-US/firefox/addon/stylish/ "Stylish in Firefox's extension catalog"
 [stylish-chrome]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe "Stylish in Chrome store"
