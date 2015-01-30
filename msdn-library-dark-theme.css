@@ -6,6 +6,11 @@
         background-color: #1e1e1e;
     }
 
+    /* Normal text */
+    p {
+        color: #dcdcdc;
+    }
+
     /* Main header */
     h1, h1.title, .topic h1.title {
         color: #ffffff;
@@ -16,19 +21,17 @@
         color: #ffffff
     }
 
-    /* Normal text */
-    p {
-        color: #dcdcdc;
-    }
-    
-    #curversion, #ratingCounter .ratingText {
+    /* Version of .NET framework under the main header */
+    #curversion {
         color: #6e6e6e;
     }
 
+    /* Links */
     .topic a,.topic a:link {
         color: #569CD6
     }
-    
+
+    /* Navigation links */
     div#leftNav a,div#leftNav a:link,div#leftNav a:visited {
         color: #569CD6
     }
