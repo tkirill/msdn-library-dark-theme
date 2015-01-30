@@ -21,6 +21,36 @@
         color: #ffffff
     }
 
+    /* Expand-collapse triangle */
+    .LW_CollapsibleArea_Img {
+        margin-top: 8px;
+    }
+
+    .cl_CollapsibleArea_expanding {
+        background: none;
+        height: auto;
+        width: auto;
+    }
+
+    .cl_CollapsibleArea_collapsing {
+        background: none;
+        height: auto;
+        width: auto;
+    }
+
+    .cl_CollapsibleArea_expanding:after {
+        content: "◢";
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .cl_CollapsibleArea_collapsing:after {
+        content: "▶";
+        color: #ffffff;
+        font-size: 12px;
+    }
+    /* End: expand-collapse triangle */
+
     /* Version of .NET framework under the main header */
     #curversion {
         color: #6e6e6e;
