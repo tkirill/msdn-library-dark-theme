@@ -1,21 +1,30 @@
 @-moz-document regexp('http://msdn.microsoft.com/..-../library/.*') {
+
+    /* Background color for everything except footer */
     body {
-        color: #ffffff;
+        color: #dcdcdc;
         background-color: #1e1e1e;
     }
 
-    h1, h1.title, .topic h1.title, p {
+    /* Main header */
+    h1, h1.title, .topic h1.title {
+        color: #ffffff;
+    }
+
+    /* Collapsible headers */
+    h1.heading, h2, h2.heading, h2.subheading, h3, h3.subheading, h4, h4.subheading, h5, h5.subheading, .LW_CollapsibleArea_Title {
+        color: #ffffff
+    }
+
+    /* Normal text */
+    p {
         color: #dcdcdc;
     }
     
     #curversion, #ratingCounter .ratingText {
         color: #6e6e6e;
     }
-    
-    .LW_CollapsibleArea_Title {
-        color: #f0f0f0
-    }
-    
+
     .topic a,.topic a:link {
         color: #569CD6
     }
