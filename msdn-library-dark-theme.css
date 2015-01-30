@@ -21,35 +21,15 @@
         color: #ffffff
     }
 
-    /* Expand-collapse triangle */
-    .LW_CollapsibleArea_Img {
-        margin-top: 8px;
-    }
-
+    /* Triangles */
     .cl_CollapsibleArea_expanding {
-        background: none;
-        height: auto;
-        width: auto;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAIAAAA/PgD0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuM4zml1AAAAA9SURBVChTrclJEQAgDANAlGCizqKnXksYGM7wY7+b8tv3MzN97g5AHCMixLUQN4K2W4PmHUH97qB6MghAAclug7wgVoWFAAAAAElFTkSuQmCC') no-repeat scroll;
     }
 
     .cl_CollapsibleArea_collapsing {
-        background: none;
-        height: auto;
-        width: auto;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAIAAAA/PgD0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuM4zml1AAAACDSURBVChTY5DDDRgWL15sbGwM5aEChv///3/48KG7u1tVVRUqBgMgOQh49OhRfn4+VBgMEHIQcPHixaCgIOxyELBlyxZ9fX0scrdv305MTETX9/bt29raWkVFRRQzv3//PnXqVB0dHYgoBIDkNm7caGtrCxVAAgz+/v5QJgbAHWZycgDw4Y1P0FYkEQAAAABJRU5ErkJggg==') no-repeat scroll;
     }
-
-    .cl_CollapsibleArea_expanding:after {
-        content: "◢";
-        color: #ffffff;
-        font-size: 12px;
-    }
-
-    .cl_CollapsibleArea_collapsing:after {
-        content: "▶";
-        color: #ffffff;
-        font-size: 12px;
-    }
-    /* End: expand-collapse triangle */
+    /* End: Collapsible headers */
 
     /* Version of .NET framework under the main header */
     #curversion {
