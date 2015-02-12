@@ -56,7 +56,13 @@
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuM4zml1AAAABxSURBVDhPY5AjHYwAPYmJibW1tYqKilA+BsCip6io6P///7dv3wZqhgqhApx6IODw4cMeHh5QCRggoAcINm7cqKqqCpUDA3x6Ll68GBQUBBVFAtj1PHv2LD8/H8rHAFj0mJmZoTkGDWDRQxAMLz1ycgC4PZRsBb4BMQAAAABJRU5ErkJggg==') no-repeat scroll
     }
 
+    /* Current navigation section */
     div#tocnav > div.current > a, div#tocnav > div.current > a:link, div#tocnav > div.current > a:hover, div#tocnav > div.current > a:focus, div#tocnav > div.current > a:visited {
         color: #ffffff;
+    }
+
+    /* Description of members of a class */
+    td {
+        color: #dcdcdc;
     }
 }
