@@ -1,4 +1,4 @@
-@-moz-document regexp('http://msdn.microsoft.com/..-../library/.*') {
+@-moz-document regexp('https://msdn.microsoft.com/..-../library/.*') {
 
     /* Background color for everything except footer */
     body {
