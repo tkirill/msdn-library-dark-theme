@@ -65,4 +65,24 @@
     td {
         color: #dcdcdc;
     }
+
+    /* Ordinary code color */
+    [style*="Black"] {
+        color: #dcdcdc !important;
+    }
+    
+    /* Keywords */
+    [style*="Blue"] {
+        color: #569cd6 !important;
+    }
+    
+    /* Comments */
+    [style*="Green"] {
+        color: #57a64a !important;
+    }
+    
+    /* String literals */
+    [style*="A31515"] {
+        color: #d69d85 !important;
+    }
 }
