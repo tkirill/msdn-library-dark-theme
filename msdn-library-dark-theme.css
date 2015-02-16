@@ -85,4 +85,10 @@
     [style*="A31515"] {
         color: #d69d85 !important;
     }
+
+    /* Inline code */
+    /* The color of user types in VS2013 */
+    .code {
+        color: #4ec9b0 !important;
+    }
 }
