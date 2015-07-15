@@ -91,4 +91,9 @@
     .code {
         color: #4ec9b0 !important;
     }
+
+    /* Comments */
+    .communityContentAnnotation {
+        color: #dcdcdc !important;
+    }
 }
